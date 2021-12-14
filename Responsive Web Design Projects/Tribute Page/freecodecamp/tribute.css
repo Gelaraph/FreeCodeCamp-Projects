@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0px 5.5%;
+	padding: 0;
+	text-align: center;
+    position: relative;
+font-size: 20px;
+font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+#tribute-info{ position: relative;}
+
+img{
+	align-content: center;
+	margin: auto;
+	position: relative;
+	padding-top: 55px;
+  max-width: 100%;
+  display: block
+}
+#img-caption{
+	position: relative;
+}
+.main-box {
+	position: relative;
+}
+
+.main-box::before {
+	content: "";
+    background-image: url("https://assets3.thrillist.com/v1/image/2888345/1584x1056/crop;jpeg_quality=60;progressive.jpg");
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+}
+
+h2{ position: relative; }
+
+p { position: relative; }
+
+footer{
+	padding: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background: gray;
+	border-radius: 10px;
+	position: relative;
+}
+
+#footer-content{
+	margin: auto;
+	max-width: 800px;
+	text-align: center;
+}
+
+#tribute-link:hover{
+color: hsl(220, 88%, 60%);
+}
+
+#tribute-link{
+	color: hsl(220, 57%, 42%);
+	text-decoration: none;
+}
