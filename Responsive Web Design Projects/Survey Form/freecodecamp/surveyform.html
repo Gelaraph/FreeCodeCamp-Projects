@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="surveyform.css" />
+</head>
+<body>
+    
+    
+	<div  id="container">
+        <div>
+               <h1 id="title">FreecodeCamp Survey Form</h1>
+        
+        </div>
+        
+        <div id="formDiv">
+               <p id="description">Let us know how we can improve</p>
+               <form id="survey-form">
+        
+               <div>
+                   <label id="name-label" for="name">Name:</label>
+            </div>
+        <br>
+            <div>
+                   <input type="text" name="Name" class="name" id="name" placeholder="Enter your name" required/>
+               </div>
+        <br>
+        
+            <div>
+                   <br><label id="email-label" for="email">Email:</label>
+            </div>
+        <br>
+            <div>
+                   <input type="email" name="email" class="email" id="email" placeholder="example@gmail.com" required/> 
+            </div>
+        <br>
+        
+            <div>
+                <br><label id="number-label" for="age">Age:</label>
+            </div>
+        <br>
+            <div>
+                   <input type="number" name="number" class="age" id="number" placeholder="Age" min="1" max="70" required/>
+               </div>
+        <br>
+        
+               <div>
+                   <br><label>Gender:</label>
+                   <input type="radio" name="gender" value="1"/>Female
+                   <input type="radio" name="gender" value="2"/>Male
+                   <input type="radio" name="gender" value="3"/>Other<br>
+            
+            </div>
+        <br>
+            <div>
+                   <br><label> Would you recommend Freecode Camp to your friends?</label><br>
+                   <br><input type="radio" name="radio" value="definitely">Definitely
+                   <br><input type="radio" name="radio" value="maybe">Maybe
+                   <br><input type="radio" name="radio" value="Not sure">Not Sure<br>
+            </div>
+        <br>
+            <div>
+                    <br><label> What is your favourite feature on FreecodeCamp? <span>(Check all that apply)</span><br>
+              </label>
+                <br><input value="Challenges"type="checkbox"/>Challenges
+              
+            <input value="Challenges"type="checkbox"/>Projects
+              
+            <input value="Challenges" type="checkbox"/>City Meetups
+              
+            <input value="Challenges"type="checkbox"/>Open Source Community
+              
+            </div>
+        <br>
+           
+        <br><div>
+        <label id="dropdown"> How often would you like to get our newsletters? </label>
+        <select  id="dropdown" required>
+                <option disabled selected value>Select an option</option>
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+                <option value="yearly">Yearly</option>
+              </select>
+               </div>	
+                   <br>	
+               <div>
+                   <br><label for="comments"> Any comments or suggestions?</label>
+                   <br><textarea name="comment" class="comment" placeholder="Say something here...."></textarea>
+                   <br>
+            </div>
+        
+            <div class="submit" style="padding-left: 20%;">
+                   <br><button id="submit" type="sumbit" style="height: 70px; width: 500px; border-radius: 30px; background:lightsteelblue;" >Submit</button>
+               </div>
+        
+               </form>
+           </div>
+           </div>
+        </div>
+           <footer> 
+               <div>Follow/Contact <a href="https://www.freecodecamp.org/learn"> FreecodeCamp</a>
+                <p style=" font-size: 20px;">Created for "Reponsive Web Design Projects - Bulid a Survey Form by <br>Angela Raphael, 2021</p>
+               </div>
+           </footer>
+        
+        </body>
+</body>
+</html>
